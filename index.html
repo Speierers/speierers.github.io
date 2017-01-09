@@ -1,24 +1,488 @@
-<div class="jumbotron text-center">
-  <h1>My First Bootstrap Page</h1>
-  <p>Resize this responsive page to see the effect!</p> 
-</div>
+<!DOCTYPE html>
+<html lang="en">
 
-<div class="container">
-  <div class="row">
-    <div class="col-sm-4">
-      <h3>Column 1</h3>
-      <p>Lorem ipsum dolor..</p>
-      <p>Ut enim ad..</p>
-    </div>
-    <div class="col-sm-4">
-      <h3>Column 2</h3>
-      <p>Lorem ipsum dolor..</p>
-      <p>Ut enim ad..</p>
-    </div>
-    <div class="col-sm-4">
-      <h3>Column 3</h3> 
-      <p>Lorem ipsum dolor..</p>
-      <p>Ut enim ad..</p>
-    </div>
-  </div>
-</div>
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Sebastien Speierer</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom Fonts -->
+    <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Merriweather:400,300,300italic,400italic,700,700italic,900,900italic' rel='stylesheet' type='text/css'>
+
+    <!-- Plugin CSS -->
+    <link href="vendor/magnific-popup/magnific-popup.css" rel="stylesheet">
+
+    <!-- Theme CSS -->
+    <link href="css/creative.css" rel="stylesheet">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+</head>
+
+<body id="page-top">
+
+    <nav id="mainNav" class="navbar navbar-default navbar-fixed-top">
+        <div class="container-fluid">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span> Menu <i class="fa fa-bars"></i>
+                </button>
+                <a class="navbar-brand page-scroll" href="#page-top">Sebastien Speierer</a>
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav navbar-right">
+                    <li>
+                        <a class="page-scroll" href="#about">About</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#portfolio-cg-projects">Projects</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="docs.html">Docs</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container-fluid -->
+    </nav>
+
+    <header>
+        <div class="header-content">
+            <div class="header-content-inner">
+                <h1 id="homeHeading">Sebastien Speierer</h1>
+                <hr>
+                <h2 id="homeHeading">Just keep rendering</h2>
+            </div>
+        </div>
+    </header>
+
+    <section class="bg-primary" id="about">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 col-lg-offset-2 text-center">
+                    <h2 class="section-heading">About me</h2>
+                    <hr class="light">
+                    <p class="text-faded">Start Bootstrap has everything you need to get your new website up and running in no time! All of the templates and themes on Start Bootstrap are open source, free to download, and easy to use. No strings attached!</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="education">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2 class="section-heading">Education</h2>
+                    <hr class="primary">
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4 col-md-6 text-center">
+                    <div class="service-box">
+                        <img src="img/education/epfl.png" class="img-responsive" alt="">
+                        <h3>Bachelor in Computer Science</h3>
+                        <h4>2013-2015</h4>
+                        <h4>GPA: 5.62/6</h4>
+                        <p class="text-muted">Object-oriented programming</p>
+                        <p class="text-muted">Functional programming</p>
+                        <p class="text-muted">Algorithms</p>
+                        <p class="text-muted">Digital Photography</p>
+                        <p class="text-muted">Concurrency</p>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 text-center">
+                    <div class="service-box">
+                        <img src="img/education/epfl.png" class="img-responsive" alt="">
+                        <h3>Master in Computer Science</h3>
+                        <h4>2015-2018</h4>
+                        <p class="text-muted">Advanced Computer Graphics</p>
+                        <p class="text-muted">High-Performance Computing</p>                        
+                        <p class="text-muted">Pattern Classification and Machine Learning</p>
+                        <p class="text-muted">Image Processing</p>
+                        <p class="text-muted">Distributed Algorithms</p>
+                        <p class="text-muted">Intelligent Agents</p>
+                        <p class="text-muted">Reinforcement Learning in Neural Network</p>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 text-center">
+                    <div class="service-box">
+                        <img src="img/education/cmu2.png" class="img-responsive" alt="">
+                        <h3>Exchange senior undergrade</h3>
+                        <h4>2014-2015</h4>
+                        <h4>GPA: 3.53/4</h4>
+                        <p class="text-muted">Computer Graphics</p>
+                        <p class="text-muted">Applied Stocastic Processes</p>
+                        <p class="text-muted">Artificial Intelligence</p>
+                        <p class="text-muted">Fundamental of Signal Processing</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="experience">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2 class="section-heading">Professional experience</h2>
+                    <hr class="primary">
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row">
+                <h3>Software Engineer Internship - July-December 2016</h3>
+                <div class="col-lg-4 col-md-6 text-center">
+                    <img src="img/pixar2.png" class="img-responsive" alt="" >
+                </div>
+                <div class="col-lg-8 col-md-6">
+                    <div class="service-box-ss">
+                    At Pixar, I conducted design and research on extending the capabilities of their lighting and rendering systems. My main task was about eye illumination effects, in particular caustics and gleams from the cornea onto the eyeball. After exploring various published approaches, my work consisted in deriving my own methods and implementing them in Pixar's tools.
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <h3>Research Assistant - 2017</h3>
+                <div class="col-lg-4 col-md-6 text-center">
+                    <img src="img/education/epfl.png" class="img-responsive" alt="">
+                    <div class="service-box">
+                        <h3></h3>
+                    </div>
+                </div>
+                <div class="col-lg-8 col-md-6 text-center">
+                    <div class="service-box">
+                        <h3>Research Assistant in Mitsuba II development team</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="skills">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2 class="section-heading">Skills</h2>
+                    <hr class="primary">
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4 col-md-6 text-center">
+                    <div class="service-box">
+                        <i class="fa fa-4x fa-diamond text-primary sr-icons"></i>
+                        <h3>Programmation</h3>
+                        <h3>C++</h3>
+                        <img src="img/skills/level100.png"  align="middle"  width="50%" height="50%">
+
+                        <h3>C</h3>
+                        <img src="img/skills/level80.png"  align="middle"  width="50%" height="50%">
+
+                        <h3>Python</h3>
+                        <img src="img/skills/level80.png"  align="middle"  width="50%" height="50%">
+
+                        <h3>Java</h3>
+                        <img src="img/skills/level80.png"  align="middle"  width="50%" height="50%">
+
+                        <h3>Scala</h3>
+                        <img src="img/skills/level70.png"  align="middle"  width="50%" height="50%">
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 text-center">
+                    <div class="service-box">
+                        <i class="fa fa-4x fa-eye text-primary sr-icons"></i>
+                        <h3>Computer graphics</h3>
+                        <h3>OpenGL</h3>
+                        <img src="img/skills/level90.png"  align="middle"  width="50%" height="50%">
+
+                        <h3>GLSL</h3>
+                        <img src="img/skills/level80.png"  align="middle"  width="50%" height="50%">
+
+                        <h3>CUDA</h3>
+                        <img src="img/skills/level80.png"  align="middle"  width="50%" height="50%">
+
+                        <h3>Maya</h3>
+                        <img src="img/skills/level70.png"  align="middle"  width="50%" height="50%">
+
+                        <h3>Katana</h3>
+                        <img src="img/skills/level70.png"  align="middle"  width="50%" height="50%">
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 text-center">
+                    <div class="service-box">
+                        <i class="fa fa-4x fa-newspaper-o text-primary sr-icons"></i>
+                        <h3>Other</h3>
+                        <h3>LaTeX</h3>
+                        <img src="img/skills/level100.png"  align="middle"  width="50%" height="50%">
+
+                        <h3>Git</h3>
+                        <img src="img/skills/level90.png"  align="middle"  width="50%" height="50%">
+
+                        <h3>Perforce</h3>
+                        <img src="img/skills/level90.png"  align="middle"  width="50%" height="50%">
+
+                        <h3>Matlab</h3>
+                        <img src="img/skills/level80.png"  align="middle"  width="50%" height="50%">
+
+                        <h3>Mathematica</h3>
+                        <img src="img/skills/level80.png"  align="middle"  width="50%" height="50%">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- portfolio cg-projects -->
+    <section class="no-padding"  id="portfolio-cg-projects">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2 class="section-heading">Computer Graphics Projects</h2>
+                    <hr class="primary">
+                </div>
+            </div>
+        </div>
+        <div class="container-fluid">
+            <div class="row no-gutter">
+                <div class="col-lg-4 col-sm-6">
+                    <a href="files/VPL-report.pdf" class="portfolio-box">
+                        <img src="img/cg-projects/vpl.png" class="img-responsive" alt="" target="_blank">
+                        <div class="portfolio-box-caption">
+                            <div class="portfolio-box-caption-content">
+                                <div class="project-name">
+                                    Metropolis Virtual Point Light Rendering
+                                </div>
+                                <div class="project-category text-faded">
+                                    Semester project - C++
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-lg-4 col-sm-6">
+                    <a href="https://github.com/Speierers/Cpp-Rendering-Engine" class="portfolio-box" target="_blank">
+                        <img src="img/cg-projects/rt.png" class="img-responsive" alt="">
+                        <div class="portfolio-box-caption">
+                            <div class="portfolio-box-caption-content">
+                                <div class="project-name">
+                                    Physically-based path tracer
+                                </div>
+                                <div class="project-category text-faded">
+                                    Development project - C++, Boost
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-lg-4 col-sm-6">
+                    <a href="files/raymarching-report.pdf" class="portfolio-box" target="_blank">
+                        <img src="img/cg-projects/rm.png" class="img-responsive" alt="">
+                        <div class="portfolio-box-caption">
+                            <div class="portfolio-box-caption-content">
+                                <div class="project-name">
+                                    Ray marching with CUDA
+                                </div>
+                                <div class="project-category text-faded">
+                                    High Performance Computing project - C, CUDA
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <br>
+    <br>
+    <br>
+
+    <!-- portfolio music -->
+    <section class="no-padding" id="portfolio-music">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2 class="section-heading">NOX Music Production</h2>
+                    <hr class="primary">
+                    <p class="text-muted">Co-founder of NOX Music Production, producing original epic soundtracks </p>
+                </div>
+            </div>
+        </div>
+        <div class="container-fluid">
+            <div class="row no-gutter">
+                <div class="col-lg-4 col-sm-6">
+                    <a href="https://www.youtube.com/watch?v=DYGnaMUKnZ4&list=PLJY6g1TxYoCmwHhKuDvT68UKB8Zr4IeyD" class="portfolio-box" target="_blank">
+                        <img src="img/nox-projects/thumbnails/1.jpg" class="img-responsive" alt="">
+                        <div class="portfolio-box-caption">
+                            <div class="portfolio-box-caption-content">
+                                <div class="project-name">
+                                    NOX 2016
+                                </div>
+                                <div class="project-category text-faded">
+                                    Production, Composition, Recording, Mixing, Mastering
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-lg-4 col-sm-6">
+                    <a href="https://www.youtube.com/channel/UCAwPm4lg0w-str_u6yCCbmA" class="portfolio-box" target="_blank">
+                        <img src="img/nox-projects/thumbnails/2.jpg" class="img-responsive" alt="">
+                        <div class="portfolio-box-caption">
+                            <div class="portfolio-box-caption-content">
+                                <div class="project-name">
+                                    NOX 2017
+                                </div>
+                                <div class="project-category text-faded">
+                                    Production,Composition, Recording, Mixing, Mastering
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-lg-4 col-sm-6">
+                    <a href="https://www.youtube.com/watch?v=C6bhJgZRuXk&list=PLJY6g1TxYoCk5g7H7-DjzFlE2LgtT9BH6" class="portfolio-box" target="_blank">
+                        <img src="img/nox-projects/thumbnails/3.jpg" class="img-responsive" alt="">
+                        <div class="portfolio-box-caption">
+                            <div class="portfolio-box-caption-content">
+                                <div class="project-name">
+                                    NOX Covers
+                                </div>
+                                <div class="project-category text-faded">
+                                    Production, Recording, Mixing, Mastering
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <br>
+    <br>
+    <br>
+
+    <!-- portfolio other -->
+    <section class="no-padding" id="portfolio-other">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2 class="section-heading">Miscellaneous</h2>
+                    <hr class="primary">
+                </div>
+            </div>
+        </div>
+        <div class="container-fluid">
+            <div class="row no-gutter">
+                <div class="col-lg-4 col-sm-6">
+                    <a href="docs.html#bachelor" class="portfolio-box">
+                        <img src="img/summaries.png" class="img-responsive" alt="">
+                        <div class="portfolio-box-caption">
+                            <div class="portfolio-box-caption-content">
+                                <div class="project-category text-faded">
+                                    Cheatsheets & summaries
+                                </div>
+                                <div class="project-name">
+                                    Bachelor
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-lg-4 col-sm-6">
+                    <a href="docs.html#master" class="portfolio-box">
+                        <img src="img/summaries.png" class="img-responsive" alt="">
+                        <div class="portfolio-box-caption">
+                            <div class="portfolio-box-caption-content">
+                                <div class="project-category text-faded">
+                                    Cheatsheets & summaries
+                                </div>
+                                <div class="project-name">
+                                    Master
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-lg-4 col-sm-6">
+                    <a href="https://github.com/Speierers/LaTeXCheatsheetTemplate" class="portfolio-box">
+                        <img src="img/cheatsheet.png" class="img-responsive" alt="">
+                        <div class="portfolio-box-caption">
+                            <div class="portfolio-box-caption-content">
+                                <div class="project-category text-faded">
+                                    Cheatsheets & summaries
+                                </div>
+                                <div class="project-name">
+                                    LaTeX Template
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 col-lg-offset-2 text-center">
+                    <h2 class="section-heading">Let's Get In Touch!</h2>
+                    <hr class="primary">
+                    <p>Ready to start your next project with me? That's great! Give me a call or send me an email and I will get back to you as soon as possible!</p>
+                </div>
+                <div class="col-lg-4 col-lg-offset-2 text-center">
+                    <i class="fa fa-phone fa-3x sr-contact"></i>
+                    <p>079 372 95 31</p>
+                </div>
+                <div class="col-lg-4 text-center">
+                    <i class="fa fa-envelope-o fa-3x sr-contact"></i>
+                    <p><a href="mailto:your-email@your-domain.com">sebastien.speierer@epfl.ch</a></p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- jQuery -->
+    <script src="vendor/jquery/jquery.min.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
+
+    <!-- Plugin JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
+    <script src="vendor/scrollreveal/scrollreveal.min.js"></script>
+    <script src="vendor/magnific-popup/jquery.magnific-popup.min.js"></script>
+
+    <!-- Theme JavaScript -->
+    <script src="js/creative.min.js"></script>
+
+</body>
+
+</html>
