@@ -2241,6 +2241,9 @@ pre code {
   .col-lg-offset-2 {
     margin-left: 16.66666667%;
   }
+  .col-lg-offset-1p5 {
+    margin-left: 12.5%;
+  }
   .col-lg-offset-1 {
     margin-left: 8.33333333%;
   }

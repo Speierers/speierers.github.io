@@ -50,10 +50,10 @@
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav navbar-right">
                     <li>
-                        <a class="page-scroll" href="#about">Home</a>
+                        <a class="page-scroll" href="#about">About</a>
                     </li>
                     <li>
-                        <a class="page-scroll" href="projects.html">Projects</a>
+                        <a class="page-scroll" href="#portfolio-cg-projects">Projects</a>
                     </li>
                     <li>
                         <a class="page-scroll" href="resume.html">Resume</a>
@@ -62,12 +62,7 @@
                         <a class="page-scroll" href="docs.html">Docs</a>
                     </li>
                     <li>
-                        <a class="icon-github" href="https://github.com/Speierers" target="_blank">
-                        </a>
-                    </li>
-                    <li>
-                        <a class="icon-in" href="https://ch.linkedin.com/in/sebastien-speierer-58a602a6" target="_blank">
-                        </a>
+                        <a class="page-scroll" href="#contact">Contact</a>
                     </li>
                 </ul>
             </div>
@@ -81,58 +76,36 @@
             <div class="header-content-inner">
                 <h1 id="homeHeading">Sebastien Speierer</h1>
                 <hr>
-                <h2 id="homeHeading"> <b>Just keep rendering <b> </h2>
-                <p></p>
-                <a href="#about" class="btn btn-primary btn-xl page-scroll">Let's go!</a>
+                <h2 id="homeHeading">Just keep rendering</h2>
             </div>
         </div>
     </header>
 
-    <section id="about">
-    <!--
+    <section class="bg-primary" id="about">
         <div class="container">
             <div class="row">
                 <div class="col-lg-8 col-lg-offset-2 text-center">
                     <h2 class="section-heading">About me</h2>
                     <hr class="light">
-                </div>
-            </div>
-        </div>
-    -->
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-4">
-                    <img src="img/about/me-trans.png" class="img-responsive" alt="" width="85%" height="85%">
-                </div>
-                <div class="col-lg-7 col-lg-offset-1">
-                    <p>
-                    <br>
-                    Hi! 
-                    <br> <br>
-                    I'm a software engineer finishing my master degree at EPFL in Switzerland, specializing in Physically Based Rendering and Computer Graphics.
-                    I just completed a 6 months internship at Pixar in the R&D team, enhancing their rendering software, RenderMan.
-                    I'm also a passionate musician, co-founder of NOX Music Production, composing and producing epic soundtracks.
-                    <br> <br>
-                    Feel free to contact me if you would like to chat.
-                    </p>
+                    <p class="text-faded">Start Bootstrap has everything you need to get your new website up and running in no time! All of the templates and themes on Start Bootstrap are open source, free to download, and easy to use. No strings attached!</p>
                 </div>
             </div>
         </div>
     </section>
 
-    <hr class="long no-padding">
-    
+   
     <!-- portfolio cg-projects -->
-    <section id="portfolio-cg-projects">
+    <section class="no-padding"  id="portfolio-cg-projects">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
-                    <h2 class="section-heading">Latest Projects</h2>
+                    <h2 class="section-heading">Computer Graphics Projects</h2>
+                    <hr class="primary">
                 </div>
             </div>
         </div>
         <div class="container-fluid">
-            <div class="row">
+            <div class="row no-gutter">
                 <div class="col-lg-4 col-sm-6">
                     <a href="files/VPL-report.pdf" class="portfolio-box">
                         <img src="img/cg-projects/vpl.png" class="img-responsive" alt="" target="_blank">
@@ -164,22 +137,6 @@
                     </a>
                 </div>
                 <div class="col-lg-4 col-sm-6">
-                    <a href="https://www.youtube.com/watch?v=DYGnaMUKnZ4&list=PLJY6g1TxYoCmwHhKuDvT68UKB8Zr4IeyD" class="portfolio-box" target="_blank">
-                        <img src="img/nox-projects/thumbnails/1.jpg" class="img-responsive" alt="">
-                        <div class="portfolio-box-caption">
-                            <div class="portfolio-box-caption-content">
-                                <div class="project-name">
-                                    NOX 2016
-                                </div>
-                                <div class="project-category text-faded">
-                                    Production, Composition, Recording, Mixing, Mastering
-                                </div>
-                            </div>
-                        </div>
-                    </a>
-                </div>
-                <!--
-                <div class="col-lg-3 col-sm-6">
                     <a href="files/raymarching-report.pdf" class="portfolio-box" target="_blank">
                         <img src="img/cg-projects/rm.png" class="img-responsive" alt="">
                         <div class="portfolio-box-caption">
@@ -194,18 +151,148 @@
                         </div>
                     </a>
                 </div>
-                -->
             </div>
         </div>
     </section>
 
-    <hr class="long no-padding">
-    
-    <section class="" id="contact">
+    <br>
+    <br>
+    <br>
+
+    <!-- portfolio music -->
+    <section class="no-padding" id="portfolio-music">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2 class="section-heading">NOX Music Production</h2>
+                    <hr class="primary">
+                    <p class="text-muted">Co-founder of NOX Music Production, producing original epic soundtracks </p>
+                </div>
+            </div>
+        </div>
+        <div class="container-fluid">
+            <div class="row no-gutter">
+                <div class="col-lg-4 col-sm-6">
+                    <a href="https://www.youtube.com/watch?v=DYGnaMUKnZ4&list=PLJY6g1TxYoCmwHhKuDvT68UKB8Zr4IeyD" class="portfolio-box" target="_blank">
+                        <img src="img/nox-projects/thumbnails/1.jpg" class="img-responsive" alt="">
+                        <div class="portfolio-box-caption">
+                            <div class="portfolio-box-caption-content">
+                                <div class="project-name">
+                                    NOX 2016
+                                </div>
+                                <div class="project-category text-faded">
+                                    Production, Composition, Recording, Mixing, Mastering
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-lg-4 col-sm-6">
+                    <a href="https://www.youtube.com/channel/UCAwPm4lg0w-str_u6yCCbmA" class="portfolio-box" target="_blank">
+                        <img src="img/nox-projects/thumbnails/2.jpg" class="img-responsive" alt="">
+                        <div class="portfolio-box-caption">
+                            <div class="portfolio-box-caption-content">
+                                <div class="project-name">
+                                    NOX 2017
+                                </div>
+                                <div class="project-category text-faded">
+                                    Production,Composition, Recording, Mixing, Mastering
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-lg-4 col-sm-6">
+                    <a href="https://www.youtube.com/watch?v=C6bhJgZRuXk&list=PLJY6g1TxYoCk5g7H7-DjzFlE2LgtT9BH6" class="portfolio-box" target="_blank">
+                        <img src="img/nox-projects/thumbnails/3.jpg" class="img-responsive" alt="">
+                        <div class="portfolio-box-caption">
+                            <div class="portfolio-box-caption-content">
+                                <div class="project-name">
+                                    NOX Covers
+                                </div>
+                                <div class="project-category text-faded">
+                                    Production, Recording, Mixing, Mastering
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <br>
+    <br>
+    <br>
+
+    <!-- portfolio other -->
+    <section class="no-padding" id="portfolio-other">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2 class="section-heading">Miscellaneous</h2>
+                    <hr class="primary">
+                </div>
+            </div>
+        </div>
+        <div class="container-fluid">
+            <div class="row no-gutter">
+                <div class="col-lg-4 col-sm-6">
+                    <a href="docs.html#bachelor" class="portfolio-box">
+                        <img src="img/summaries.png" class="img-responsive" alt="">
+                        <div class="portfolio-box-caption">
+                            <div class="portfolio-box-caption-content">
+                                <div class="project-category text-faded">
+                                    Cheatsheets & summaries
+                                </div>
+                                <div class="project-name">
+                                    Bachelor
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-lg-4 col-sm-6">
+                    <a href="docs.html#master" class="portfolio-box">
+                        <img src="img/summaries.png" class="img-responsive" alt="">
+                        <div class="portfolio-box-caption">
+                            <div class="portfolio-box-caption-content">
+                                <div class="project-category text-faded">
+                                    Cheatsheets & summaries
+                                </div>
+                                <div class="project-name">
+                                    Master
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-lg-4 col-sm-6">
+                    <a href="https://github.com/Speierers/LaTeXCheatsheetTemplate" class="portfolio-box">
+                        <img src="img/cheatsheet.png" class="img-responsive" alt="">
+                        <div class="portfolio-box-caption">
+                            <div class="portfolio-box-caption-content">
+                                <div class="project-category text-faded">
+                                    Cheatsheets & summaries
+                                </div>
+                                <div class="project-name">
+                                    LaTeX Template
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact">
         <div class="container">
             <div class="row">
                 <div class="col-lg-8 col-lg-offset-2 text-center">
                     <h2 class="section-heading">Let's Get In Touch!</h2>
+                    <hr class="primary">
+                    <p>Ready to start your next project with me? That's great! Give me a call or send me an email and I will get back to you as soon as possible!</p>
                 </div>
                 <div class="col-lg-4 col-lg-offset-2 text-center">
                     <i class="fa fa-phone fa-3x sr-contact"></i>
@@ -214,8 +301,6 @@
                 <div class="col-lg-4 text-center">
                     <i class="fa fa-envelope-o fa-3x sr-contact"></i>
                     <p><a href="mailto:your-email@your-domain.com">sebastien.speierer@epfl.ch</a></p>
-                    <br>
-                    <br>
                 </div>
             </div>
         </div>
