@@ -36,7 +36,7 @@
 
 <body id="page-top">
 
-    <nav id="mainNav" class="navbar navbar-default navbar-fixed-top">
+    <nav id="mainNav" class="navbar navbar-default-fix navbar-fixed-top">
         <div class="container-fluid">
             <!-- Brand and toggle get grouped for better mobile display -->
             <div class="navbar-header">
@@ -76,66 +76,125 @@
         <!-- /.container-fluid -->
     </nav>
    
-    <!-- portfolio cg-projects -->
-    <section id="portfolio-cg-projects">
+    <br>
+    <br>
+    <br>
+
+    <section id="cg-projects">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
-                    <h2 class="section-heading">Recent Computer Graphics Projects</h2>
+                    <h2 class="section-heading">Computer Graphics Projects</h2>
                     <hr class="primary">
                 </div>
             </div>
         </div>
-        <div class="container-fluid">
-            <div class="row no-gutter">
-                <div class="col-lg-4 col-sm-6">
-                    <a href="files/VPL-report.pdf" class="portfolio-box">
-                        <img src="img/cg-projects/vpl.png" class="img-responsive" alt="" target="_blank">
-                        <div class="portfolio-box-caption">
-                            <div class="portfolio-box-caption-content">
-                                <div class="project-name">
-                                    Metropolis Virtual Point Light Rendering
-                                </div>
-                                <div class="project-category text-faded">
-                                    Semester project - C++
-                                </div>
-                            </div>
-                        </div>
-                    </a>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4">
+                    <a href="files/VPL-report.pdf"  target="_blank">
+                    <img src="img/cg-projects/vpl-cut.png" class="img-responsive" alt="" target="_blank">
                 </div>
-                <div class="col-lg-4 col-sm-6">
-                    <a href="https://github.com/Speierers/Cpp-Rendering-Engine" class="portfolio-box" target="_blank">
-                        <img src="img/cg-projects/rt.png" class="img-responsive" alt="">
-                        <div class="portfolio-box-caption">
-                            <div class="portfolio-box-caption-content">
-                                <div class="project-name">
-                                    Physically-based path tracer
-                                </div>
-                                <div class="project-category text-faded">
-                                    Development project - C++, Boost
-                                </div>
-                            </div>
-                        </div>
-                    </a>
+                <div class="col-lg-8">
+                    <h2>
+                        Metropolis Virtual Point Light Rendering
+                    </h2>
+                    <p class="text-muted">
+                        In this project, I combined the rasterization
+power of modern GPUs and the robustness of Metropolis sampling
+algorithms to achieve global illumination in an interactive rendering environment.
+                    </p>
                 </div>
+            </div>
+
+            <hr class="long">
+
+            <div class="row">
+                <div class="col-lg-4  col-sm-6">
+                    <a href="https://github.com/Speierers/Cpp-Rendering-Engine" target="_blank">
+                    <img src="img/cg-projects/rt-cut.png" class="img-responsive" alt="" target="_blank">
+                </div>
+                <div class="col-lg-8  col-sm-6">
+                    <h2>
+                        Physically-based path tracer
+                    </h2>
+
+                    <p class="text-muted">
+                        Implementation of a modern rendering engine in C++. Scenes are described in XML files and can be rendered using a path tracer or in real-time using OpenGL.
+                    </p>
+                </div>
+            </div>
+
+            <hr class="long">
+
+            <div class="row">
+                <div class="col-lg-4  col-sm-6">
+                    <a href="files/raymarching-report.pdf" target="_blank">
+                    <img src="img/cg-projects/rm-cut.png" class="img-responsive" alt="" target="_blank">
+                </div>
+                <div class="col-lg-8  col-sm-6">
+                    <h2>
+                        Ray marching with CUDA
+                    </h2>
+                    <p class="text-muted">
+                        Ray-marcher implementation on CUDA with recursive load-balancing scheme to optimize work distribution amoung the threads.
+                    </p>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+<br>
+ <!-- portfolio music -->
+    <section id="portfolio-music">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2 class="section-heading">NOX Music Production</h2>
+                    <hr class="primary">
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row">
                 <div class="col-lg-4 col-sm-6">
-                    <a href="files/raymarching-report.pdf" class="portfolio-box" target="_blank">
-                        <img src="img/cg-projects/rm.png" class="img-responsive" alt="">
-                        <div class="portfolio-box-caption">
-                            <div class="portfolio-box-caption-content">
-                                <div class="project-name">
-                                    Ray marching with CUDA
-                                </div>
-                                <div class="project-category text-faded">
-                                    High Performance Computing project - C, CUDA
-                                </div>
-                            </div>
-                        </div>
-                    </a>
+                    <a href="https://www.youtube.com/watch?v=DYGnaMUKnZ4&list=PLJY6g1TxYoCmwHhKuDvT68UKB8Zr4IeyD" target="_blank">
+                    <img src="img/nox-projects/thumbnails/1.jpg" class="img-responsive" alt="" target="_blank">
+                </div>
+                <div class="col-lg-8 col-sm-6">
+                    <h2>
+                        NOX 2016
+                    </h2>
+
+                    <p class="text-muted">
+                        Different soundtracks produced in 2016.
+                    </p>
+                </div>
+            </div>
+
+            <hr class="long">
+
+
+            <div class="row">
+                <div class="col-lg-4 col-sm-6">
+                    <a href="https://www.youtube.com/watch?v=C6bhJgZRuXk&list=PLJY6g1TxYoCk5g7H7-DjzFlE2LgtT9BH6" class="portfolio-box" target="_blank">
+                    <img src="img/nox-projects/thumbnails/3.jpg" class="img-responsive" alt="" target="_blank">
+                </div>
+                <div class="col-lg-8 col-sm-6">
+                    <h2>
+                        NOX Cover
+                    </h2>
+                    
+                    <p class="text-muted">
+                        Collaboration with different artists in order to produce a few covers of pop songs.
+                    </p>
                 </div>
             </div>
         </div>
     </section>
+
+
 
     <!-- jQuery -->
     <script src="vendor/jquery/jquery.min.js"></script>
