@@ -8,9 +8,11 @@ In 2018, I joined Weta Digital in New Zealand. First as an intern, working on my
 
 I recently move back to Switzerland and joined the Realistic Graphics Lab at EPFL, mainly working on the Mitsuba 2 renderer.
 
+---
 ## Projects and publications
+---
 
-### Caustic Connection Strategies for Bidirectional Path Tracing
+## Caustic Connection Strategies for Bidirectional Path Tracing
 
 ![paper tease](/resources/images/caustic_paper_teaser.png)
 
@@ -19,7 +21,16 @@ In this work, we propose a new type of sampling strategy for connection-based pa
 - [Link to the website](https://graphics.pixar.com/library/CausticConnections/)
 - [Link to PDF](https://graphics.pixar.com/library/CausticConnections/paper.pdf)
 
-### Metropolis Virtual Point Light Rendering
+## Spatially-varying specular microstructures and reflectance filtering in a production renderer
+
+![paper tease](/resources/images/thesis_teaser.png)
+
+Many surfaces of interest to computer-generated visual effects include spatially varying specular microstructures or glittery effects. Such surfaces include rocks, snow, skin, as well as a wide range of manufactured materials. As a result, finding an appearance model capturing those behaviours is of particular interest to the visual effects industry. To be successful, this model needs to be computationally efficient, consistent across scales, and expressive (i.e., allow enough control to an artist in order to achieve a desired appearance). The goal of this project is to investigate appearance and filtering models that would satisfy all three constraints of
+efficiency, consistency and expressiveness in a production renderer.
+
+- [Link to PDF](/resources/pdf/Master_Thesis-SebastienSpeierer.pdf)
+
+## Metropolis Virtual Point Light Rendering
 
 ![paper tease](/resources/images/vpl_teaser.png)
 
@@ -28,14 +39,7 @@ et al. 2007].
 
 - [Link to PDF](/resources/pdf/metropolis_vpl.pdf)
 
-### Spatially-varying specular microstructures and reflectance filtering in a production renderer
-
-![paper tease](/resources/images/thesis_teaser.png)
-
-Many surfaces of interest to computer-generated visual effects include spatially varying specular microstructures or glittery effects. Such surfaces include rocks, snow, skin, as well as a wide range of manufactured materials. As a result, finding an appearance model capturing those behaviours is of particular interest to the visual effects industry. To be successful, this model needs to be computationally efficient, consistent across scales, and expressive (i.e., allow enough control to an artist in order to achieve a desired appearance). The goal of this project is to investigate appearance and filtering models that would satisfy all three constraints of
-efficiency, consistency and expressiveness in a production renderer.
-
-- [Link to PDF](/resources/pdf/Master_Thesis-SebastienSpeierer.pdf)
+---
 
 ## Find me on the web!
 
