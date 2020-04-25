@@ -1,4 +1,4 @@
-[Take me back home](index.md)
+[Home](index.md)
 
 # Projects
 
