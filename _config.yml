@@ -12,4 +12,9 @@ include:
   - CONTRIBUTING.md
   - ISSUE_TEMPLATE.md
   - PULL_REQUEST_TEMPLATE.md
+
+title: [Sebastien Speierer - Differential Diary]
+description: [Let's explore the world of differential rendering]
+show_downloads: [false]
+
 theme: jekyll-theme-midnight
