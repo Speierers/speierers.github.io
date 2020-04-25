@@ -14,6 +14,6 @@ include:
   - PULL_REQUEST_TEMPLATE.md
 
 title: Diary of a Differential Teapot
-description: Let's explore the world of differential rendering
+description: Let's explore the world of differential rendering, and more!
 
 theme: jekyll-theme-midnight
