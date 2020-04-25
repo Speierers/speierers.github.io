@@ -9,8 +9,8 @@ In 2018, I joined Weta Digital in New Zealand. First as an intern, working on my
 I recently move back to Switzerland and joined the Realistic Graphics Lab at EPFL, mainly working on the Mitsuba 2 renderer.
 
 ---
-## Projects and publications
----
+
+# Projects and publications
 
 ## Caustic Connection Strategies for Bidirectional Path Tracing
 
@@ -41,7 +41,7 @@ et al. 2007].
 
 ---
 
-## Find me on the web!
+# Find me on the web!
 
 - sebastieneps@gmail.com
 - [GitHub](https://github.com/Speierers)
