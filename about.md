@@ -8,11 +8,9 @@ In 2018, I joined Weta Digital in New Zealand. First as an intern, working on my
 
 I recently move back to Switzerland and joined the Realistic Graphics Lab at EPFL, mainly working on the Mitsuba 2 renderer.
 
----
+## Projects and publications
 
-# Projects and publications
-
-## Caustic Connection Strategies for Bidirectional Path Tracing
+### Caustic Connection Strategies for Bidirectional Path Tracing
 
 ![paper tease](/resources/images/caustic_paper_teaser.png)
 
@@ -21,7 +19,7 @@ In this work, we propose a new type of sampling strategy for connection-based pa
 - [Link to the website](https://graphics.pixar.com/library/CausticConnections/)
 - [Link to PDF](https://graphics.pixar.com/library/CausticConnections/paper.pdf)
 
-## Spatially-varying specular microstructures and reflectance filtering in a production renderer
+### Spatially-varying specular microstructures and reflectance filtering in a production renderer
 
 ![paper tease](/resources/images/thesis_teaser.png)
 
@@ -30,7 +28,7 @@ efficiency, consistency and expressiveness in a production renderer.
 
 - [Link to PDF](/resources/pdf/Master_Thesis-SebastienSpeierer.pdf)
 
-## Metropolis Virtual Point Light Rendering
+### Metropolis Virtual Point Light Rendering
 
 ![paper tease](/resources/images/vpl_teaser.png)
 
@@ -39,9 +37,7 @@ et al. 2007].
 
 - [Link to PDF](/resources/pdf/metropolis_vpl.pdf)
 
----
-
-# Find me on the web!
+## Find me on the web!
 
 - sebastieneps@gmail.com
 - [GitHub](https://github.com/Speierers)
