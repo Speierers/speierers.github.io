@@ -14,8 +14,8 @@ I recently move back to Switzerland and joined the Realistic Graphics Lab at EPF
 
 In this work, we propose a new type of sampling strategy for connection-based path tracing algorithms such as bidirectional path tracing. Classical bidirectional path tracing generally exhibits poor performance when sampling light paths involving specular transport (e.g. refraction through dielectrics). We therefore introduce specialized connection strategies that connect through chains of specular events. By applying mechanisms such as *manifold exploration*, we propose an efficient solution for connecting two points in the scene where a sequence of refractive specular surfaces lies between them. We also introduce a lightweight scheme for recursively computing multiple importance sampling weights during path creation. The resulting algorithm is easy to implement and leads to significant improvements in constructing complex caustic paths.
 
-[Link to the website](https://graphics.pixar.com/library/CausticConnections/)
-[Link to PDF](https://graphics.pixar.com/library/CausticConnections/paper.pdf)
+- [Link to the website](https://graphics.pixar.com/library/CausticConnections/)
+- [Link to PDF](https://graphics.pixar.com/library/CausticConnections/paper.pdf)
 
 ## Find me on the web!
 

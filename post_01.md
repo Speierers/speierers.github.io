@@ -10,6 +10,4 @@ void main() {
 }
 ```
 
-$\sum_{i = 0}^{N} f(x_i)$
-
 $$\sum_{i = 0}^{N} f(x_i)$$
