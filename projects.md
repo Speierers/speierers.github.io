@@ -6,6 +6,6 @@ This page is about my projects
 
 This is a cool one.
 
-## Project 2
+## NOX Music Production
 
 Even better!
