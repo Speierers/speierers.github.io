@@ -1,4 +1,4 @@
-Hello world! My name is Sebastien Speierer and I am currently a research engineer at the RGL Lab at EPFL Switzerland, mainly working on the developement of the Mitsuba 2 renderer.
+Hello world! My name is Sebastien Speierer and I am currently a research engineer at the RGL Lab at EPFL Switzerland, mainly working on the developement of the [Mitsuba 2](https://github.com/mitsuba-renderer/mitsuba2/) renderer.
 
 > This website is WIP
 
