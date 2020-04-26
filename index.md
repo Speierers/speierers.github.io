@@ -1,4 +1,4 @@
-Hello world! My name is Sebastien Speierer and I am currently a research engineer at the Realistic Graphics Lab at EPFL, mainly working on the development of the [Mitsuba 2](https://github.com/mitsuba-renderer/mitsuba2/) renderer.
+Hello world! My name is Sebastien Speierer and I am currently a research engineer at the Realistic Graphics Lab at EPFL, working on the development of the [Mitsuba 2](https://github.com/mitsuba-renderer/mitsuba2/) renderer and other projects.
 
 > YOU SHOUDN'T BE HERE: this website is WIP
 
