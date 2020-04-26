@@ -16,4 +16,8 @@ include:
 title: Diary of a Differential Teapot
 description: Let's explore the world of differential rendering, and more!
 
+# markdown: kramdown
+# kramdown:
+#   parse_block_html: false
+
 theme: jekyll-theme-midnight

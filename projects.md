@@ -2,6 +2,8 @@
 
 On this page you will find some of the projects I have been involved in in the recent years.
 
+---
+
 ## Caustic Connection Strategies for Bidirectional Path Tracing
 
 ![paper tease](/resources/images/caustic_paper_teaser.png)
@@ -10,6 +12,8 @@ In this work, we propose a new type of sampling strategy for connection-based pa
 
 - [Link to the website](https://graphics.pixar.com/library/CausticConnections/)
 - [Link to PDF](https://graphics.pixar.com/library/CausticConnections/paper.pdf)
+
+---
 
 ## Spatially-varying specular microstructures and reflectance filtering in a production renderer
 
@@ -20,6 +24,8 @@ efficiency, consistency and expressiveness in a production renderer.
 
 - [Link to PDF](/resources/pdf/Master_Thesis-SebastienSpeierer.pdf)
 
+---
+
 ## Metropolis Virtual Point Light Rendering
 
 ![paper tease](/resources/images/vpl_teaser.png)
@@ -29,14 +35,20 @@ et al. 2007].
 
 - [Link to PDF](/resources/pdf/metropolis_vpl.pdf)
 
+---
+
 ## NOX Music Production
 
-![nox logo](/resources/images/NOX_logo_rect.png)
+<!-- ![nox logo](/resources/images/NOX_logo_rect.png) -->
 
 On a different topic, my friend Bruno Corpataux and I produce original epic musics and soundtracks for fun under the name NOX Music Production.
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/V-d9iiIfljo" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<div style="text-align:center">
+<br>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/V-d9iiIfljo" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+</iframe>
+<br>
+<br>
+</div>
 
-<!-- https://www.youtube.com/watch?v=V-d9iiIfljo&list=PLJY6g1TxYoCnpZj6AHSo7QMLMz-5O8YtA -->
-
-- [YouTube Channel](https://www.youtube.com/channel/UCAwPm4lg0w-str_u6yCCbmA)
+Please go find more on our [YouTube Channel](https://www.youtube.com/channel/UCAwPm4lg0w-str_u6yCCbmA)

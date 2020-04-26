@@ -15,10 +15,30 @@
     <link rel="stylesheet" href="{{ '/assets/css/ie.css' | relative_url }}">
     <![endif]-->
     <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+
     <!-- Mathjax Support -->
     <script type="text/javascript" async
         src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-MML-AM_CHTML">
     </script>
+
+    <style>
+        #footer {
+            position: fixed;
+            padding: 0px 0px 0px 0px;
+            bottom: 0px;
+            right: 2.5%;
+            width: 95%;
+            height: 35px;
+            opacity: 44%;
+            font-size: smaller;
+        }
+        hr {
+            border: 0;
+            height: 1px;
+            background: #333;
+            background-image: linear-gradient(to right, #333, #ccc, #333);
+        }
+    </style>
   </head>
   <body>
       <!-- <div id="header">
@@ -37,7 +57,7 @@
       <section>
         <div id="title">
           <h1>
-            <a href="https://speierers.github.io/index.html" style="text-decoration: none">
+            <a href="index.html" style="text-decoration: none">
                 {{ site.title | default: site.github.repository_name }}
             </a>
           </h1>
@@ -49,11 +69,11 @@
 
       </section>
     </div>
+
+    <div  id="footer">
+        <span style="float:left">Posted by: <a href="sebastieneps@gmail.com">Sebastien Speierer</a></span>
+        <span style="float:right">Theme by <a href="https://twitter.com/mattgraham">mattgraham</a></span>
+    </div>
   </body>
 
-  <!-- <footer>
-    <p>Posted by: Sebastien Speierer</p>
-    <p>Contact information: sebastieneps@gmail.com</p>
-    Theme by <a href="https://twitter.com/mattgraham">mattgraham</a>
-  </footer> -->
 </html>

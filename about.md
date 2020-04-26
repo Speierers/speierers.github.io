@@ -6,7 +6,7 @@ I graduated with a Master's in Computer Science from EPFL in 2018 and have been 
 
 In 2018, I joined Weta Digital in New Zealand. First as an intern, working on my Master's thesis. Later I became a Rendering Researcher, working on Manuka, their in-house production renderer.
 
-I recently move back to Switzerland and joined the Realistic Graphics Lab at EPFL, working on the Mitsuba 2 renderer and other projects.
+I recently move back to Switzerland and joined the Realistic Graphics Lab at EPFL, working on the [Mitsuba 2](https://www.mitsuba-renderer.org/) renderer and other projects.
 
 ## Find me on the web!
 
