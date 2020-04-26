@@ -39,4 +39,4 @@ On a different topic, my friend Bruno Corpataux and I produce original epic musi
 
 <!-- https://www.youtube.com/watch?v=V-d9iiIfljo&list=PLJY6g1TxYoCnpZj6AHSo7QMLMz-5O8YtA -->
 
-- [YouTube](https://www.youtube.com/channel/UCAwPm4lg0w-str_u6yCCbmA)
+- [YouTube Channel](https://www.youtube.com/channel/UCAwPm4lg0w-str_u6yCCbmA)
