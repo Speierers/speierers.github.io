@@ -22,15 +22,23 @@
     </script>
 
     <style>
-        #footer {
+        .footer {
             position: fixed;
+            height: 35px;
             padding: 0px 0px 0px 0px;
             bottom: 0px;
             right: 2.5%;
             width: 95%;
-            height: 35px;
             opacity: 44%;
             font-size: smaller;
+        }
+        body, html {
+            height: 100%;
+            margin: 0;
+        }
+        .wrapper {
+            min-height: 100%;
+            margin-bottom: -35px;
         }
         hr {
             border: 0;
@@ -41,19 +49,7 @@
     </style>
   </head>
   <body>
-      <!-- <div id="header">
-        <nav>
-          <li class="fork"><a href="{{ site.github.repository_url }}">View On GitHub</a></li>
-          {% if site.show_downloads %}
-            <li class="downloads"><a href="{{ site.github.zip_url }}">ZIP</a></li>
-            <li class="downloads"><a href="{{ site.github.tar_url }}">TAR</a></li>
-            <li class="title">DOWNLOADS</li>
-          {% endif %}
-        </nav>
-      </div> -->
-
     <div class="wrapper">
-
       <section>
         <div id="title">
           <h1>
@@ -70,10 +66,9 @@
       </section>
     </div>
 
-    <div  id="footer">
+    <footer class="footer">
         <span style="float:left">Posted by: <a href="sebastieneps@gmail.com">Sebastien Speierer</a></span>
         <span style="float:right">Theme by <a href="https://twitter.com/mattgraham">mattgraham</a></span>
-    </div>
+    </footer>
   </body>
-
 </html>
