@@ -8,6 +8,8 @@ In 2018, I joined Weta Digital in New Zealand. First as an intern, working on my
 
 I recently move back to Switzerland and joined the Realistic Graphics Lab at EPFL, working on the [Mitsuba 2](https://www.mitsuba-renderer.org/) renderer and other projects.
 
+- [Download my resume](/resources/pdf/sebastien_speierer_cv_2020.pdf)
+
 ## Find me on the web!
 
 - sebastieneps@gmail.com
