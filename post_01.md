@@ -1,5 +1,8 @@
-# Blog post 01
+# Blog post - The Beginning
 
+Coming soon!
+
+<!--
 Cool stuff happening here!
 
 This is a test:
@@ -17,7 +20,7 @@ Some Python code:
 ```python
 def foo():
     print("Hello Internet!")
-```
+``` -->
 
 <!-- Test collapse:
 
@@ -32,8 +35,8 @@ def foo():
   ```
   </p>
 </details> -->
-
+<!--
 Test MathJax:
 
-$$\sum_{i = 0}^{N} f(x_i)$$
+$$\sum_{i = 0}^{N} f(x_i)$$ -->
 

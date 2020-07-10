@@ -4,7 +4,22 @@ On this page you will find some of the projects I have been involved in in the r
 
 ---
 
+## Radiative Backpropagation: An Adjoint Method for Lightning-Fast Differentiable Rendering
+
+*Merlin Nimier-David, Sebastien Speierer, Benoît Ruiz, Wenzel Jakob*
+
+![paper tease](/resources/images/rb_teaser.png)
+
+
+In this work, we introduce radiative backpropagation, a fundamentally different approach to differentiable rendering that does not require a transcript, greatly improving its scalability and efficiency. Our main insight is that reverse-mode propagation through a rendering algorithm can be interpreted as the solution of a continuous transport problem involving the partial derivative of radiance with respect to the optimization objective. This quantity is “emitted” by sensors, “scattered” by the scene, and eventually “received” by objects with differentiable parameters. Differentiable rendering then decomposes into two separate primal and adjoint simulation steps that scale to complex scenes rendered at high resolutions. We also investigated biased variants of this algorithm and find that they considerably improve both runtime and convergence speed. We showcase an efficient GPU implementation of radiative backpropagation and compare its performance and the quality of its gradients to prior work.
+
+- [Link to the website](http://rgl.epfl.ch/publications/NimierDavid2020Radiative)
+
+---
+
 ## Caustic Connection Strategies for Bidirectional Path Tracing
+
+*Sebastien Speierer, Christophe Hery, Ryusuke Villemin, Wenzel Jakob*
 
 ![paper tease](/resources/images/caustic_paper_teaser.png)
 
@@ -17,6 +32,8 @@ In this work, we propose a new type of sampling strategy for connection-based pa
 
 ## Spatially-varying specular microstructures and reflectance filtering in a production renderer
 
+*Sebastien Speierer, Andrea Weidlich, Wenzel Jakob*
+
 ![paper tease](/resources/images/thesis_teaser.png)
 
 Many surfaces of interest to computer-generated visual effects include spatially varying specular microstructures or glittery effects. Such surfaces include rocks, snow, skin, as well as a wide range of manufactured materials. As a result, finding an appearance model capturing those behaviours is of particular interest to the visual effects industry. To be successful, this model needs to be computationally efficient, consistent across scales, and expressive (i.e., allow enough control to an artist in order to achieve a desired appearance). The goal of this project is to investigate appearance and filtering models that would satisfy all three constraints of
@@ -27,6 +44,8 @@ efficiency, consistency and expressiveness in a production renderer.
 ---
 
 ## Metropolis Virtual Point Light Rendering
+
+*Sebastien Speierer, Wenzel Jakob*
 
 ![paper tease](/resources/images/vpl_teaser.png)
 
