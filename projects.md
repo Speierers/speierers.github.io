@@ -30,6 +30,18 @@ In this work, we propose a new type of sampling strategy for connection-based pa
 
 ---
 
+## Mitsuba 2
+
+![paper tease](/resources/images/mitsuba-logo.png)
+
+Mitsuba 2 is a research-oriented rendering system written in portable C++17. It consists of a small set of core libraries and a wide variety of plugins that implement functionality ranging from materials and light sources to complete rendering algorithms. Mitsuba 2 strives to retain scene compatibility with its predecessor Mitsuba 0.6. However, in most other respects, it is a completely new system following a different set of goals.
+
+The most significant change of Mitsuba 2 is that it is a retargetable renderer: this means that the underlying implementations and data structures are specified in a generic fashion that can be transformed to accomplish a number of different tasks.
+
+- [Github](https://github.com/mitsuba-renderer/mitsuba2/)
+
+---
+
 ## Spatially-varying specular microstructures and reflectance filtering in a production renderer
 
 *Sebastien Speierer, Andrea Weidlich, Wenzel Jakob*
