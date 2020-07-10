@@ -34,9 +34,11 @@ In this work, we propose a new type of sampling strategy for connection-based pa
 
 ![paper tease](/resources/images/mitsuba-logo.png)
 
-Mitsuba 2 is a research-oriented rendering system written in portable C++17. It consists of a small set of core libraries and a wide variety of plugins that implement functionality ranging from materials and light sources to complete rendering algorithms. Mitsuba 2 strives to retain scene compatibility with its predecessor Mitsuba 0.6. However, in most other respects, it is a completely new system following a different set of goals.
+Mitsuba 2 is a research-oriented retargetable rendering system, written in portable C++17 on top of the Enoki library. It is developed by the Realistic Graphics Lab at EPFL.
 
-The most significant change of Mitsuba 2 is that it is a retargetable renderer: this means that the underlying implementations and data structures are specified in a generic fashion that can be transformed to accomplish a number of different tasks.
+It can be compiled into many variants which include color handling (RGB, spectral, monochrome), vectorization (scalar, SIMD, CUDA) and differentiable rendering.
+
+Mitsuba 2 consists of a small set of core libraries and a wide variety of plugins that implement functionality ranging from materials and light sources to complete rendering algorithms. It strives to retain scene compatibility with its predecessor Mitsuba 0.6.
 
 - [Github](https://github.com/mitsuba-renderer/mitsuba2/)
 
